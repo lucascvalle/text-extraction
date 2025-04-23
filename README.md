@@ -118,6 +118,6 @@ http://127.0.0.1:5005
 
 ## ✍️ Autor
 
-Desenvolvido por @pfrolim e @lucascvalle
+Desenvolvido por [@pfrolim] (https://github.com/pfrolim) e [@lucascvalle] (https://github.com/lucascvalle)
 
 ---
