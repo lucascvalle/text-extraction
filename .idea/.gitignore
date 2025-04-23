@@ -1,3 +1,28 @@
-# Default ignored files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+*.sqlite3
+
+# FastAPI uploads temporários
+/uploads/
+
+
+# Docker
+*.log
+*.pid
+*.sock
+*.tar
+*.gz
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 /shelf/
 /workspace.xml
+
