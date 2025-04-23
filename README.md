@@ -37,8 +37,8 @@ Envia uma **URL de imagem** e opcionalmente parâmetros `search_nome` e `search_
 ```bash
 curl -X POST "http://127.0.0.1:5005/upload-url/" \
   -d "image_url=https://i.ibb.co/35L33Rtz/documento.png" \
-  -d "search_nome=Lucas" \
-  -d "search_cpf=123.456.789-00"
+  -d "search_nome=" \
+  -d "search_cpf="
 ```
 
 ---
@@ -108,8 +108,8 @@ http://127.0.0.1:5005
     "text": "extracted text"
   },
   "matched_data": {
-    "nome": "true",
-    "cpf": "true"
+    "nome": "false",
+    "cpf": "false"
   }
 }
 ```
